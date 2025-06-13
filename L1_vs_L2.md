@@ -1,12 +1,19 @@
 L1 vs. L2 Regularization
 
 Regularization techniques help prevent overfitting in machine learning models by adding a penalty to the loss function.
+## Mathematical Definitions
 
-Mathematical Definitions
-	•	L1 Regularization (Lasso):
+- **L1 Regularization (Lasso)**:
+
+$$
 \text{Penalty} = \lambda \sum_{i=1}^{n} |\beta_i|
-	•	L2 Regularization (Ridge):
+$$
+
+- **L2 Regularization (Ridge)**:
+
+$$
 \text{Penalty} = \lambda \sum_{i=1}^{n} \beta_i^2
+$$
 
 Conceptual Differences
 
