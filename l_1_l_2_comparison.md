@@ -6,11 +6,11 @@ Regularization techniques help prevent overfitting in machine learning models by
 
 - **L1 Regularization (Lasso)**:
 $$
-\[ \text{Penalty} = \lambda \sum_{i=1}^{n} |\beta_i| \]
+\text{Penalty} = \lambda \sum_{i=1}^{n} |\beta_i|
 $$
 - **L2 Regularization (Ridge)**:
 $$
-\[ \text{Penalty} = \lambda \sum_{i=1}^{n} \beta_i^2 \]
+\text{Penalty} = \lambda \sum_{i=1}^{n} \beta_i^2
 $$
 ## Conceptual Differences
 
